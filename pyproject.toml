@@ -22,20 +22,20 @@ packages = [{ include = "MODULE_NAME" }]
 PACKAGE_NAME = "MODULE_NAME.__main__:main"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 autoflake = "^1.4"
-black = "^20.8b1"
+black = "^22.8.0"
 dustpan = "^0.3.2"
-flake8 = "^3.8.4"
-ghp-import = "^1.0.1"
-invoke = "^1.5.0"
-isort = "^5.7.0"
-mypy = "^0.790"
-portray = "^1.5.2"
-pytest = "^6.2.1"
-rope = "^0.18.0"
+flake8 = "^5.0.4"
+ghp-import = "^2.1.0"
+invoke = "^1.7.1"
+isort = "^5.10.1"
+mypy = "^0.971"
+portray = "^1.7.0"
+pytest = "^7.1.3"
+rope = "^1.3.0"
 
 [tool.black]
 line-length = 119
